@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    height: 100vh;
+    padding: 0;
+    margin:  0;
+    overflow-x: hidden;
+}
+
+.box {
+    height: 630px;
+    width: 460px; 
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #EAECED;
+    position: relative;
+    top: 110px; left: 468px;
+}
+
+div img {
+    height: 30px;
+    width: 120px;
+    position: relative;
+    top: 40px; left: 175px;
+}
+
+#bold {
+    text-align: center;
+    font-family: HelveticaNeue-Light,"Helvetica Neue Light",HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    margin-top: 12%;
+    font-weight: 300;
+
+}
+
+#leger {
+    text-align: center;
+    margin-left: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #6D7479;
+    line-height: 120%;
+}
+
+a {
+    color: #247BBF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#email {
+    margin-left: 48px;
+    padding: 5px 5px 3px 10px;
+    height: 45px;
+    width: 371px;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #9DA3A6;
+}
+
+#email::placeholder {
+    color: #767676;
+    font-size: 15px;
+}
+
+#email:hover {
+    transition: color 0.7s;
+    border-color: #1C71BA;
+}
+
+input:focus { 
+    outline: 0;
+} 
+
+#password {
+    margin-left: 48px;
+    padding: 5px 5px 3px 10px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: #9DA3A6;
+}
+
+#password::placeholder {
+    color: #767676;
+    font-size: 15px;
+}
+
+#password:hover {
+    transition: color 0.7s;
+    border-color: #1C71BA;
+}
+
+#bug {
+    margin-left: 49px;
+    font-family: sans-serif;
+    color: #1C71BA;
+    font-size: 15px;
+}
+
+#bug:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.couleur {
+    margin-left: 50px;
+    width: 81%;
+    height: 45px;
+    background-color: #1C71BA;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+#lol {
+    color: white;
+    margin-top: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+
+.couleur:hover {
+    background-color: #125EA6;
+    transition: all ease 1s;
+}
+
+hr {
+    margin-top: 23px;
+    border: none;
+    border-top: 1px solid #CBD2D6;
+    text-align: center;
+    overflow: visible;
+    width: 78%;
+}
+
+hr:after { 
+    background: #fff;
+    content:'ou';
+    color: #6C7176;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 8px 8px 8px 8px;
+    position: relative;
+    top: -8px;
+}
+
+.couleur2 {
+    margin-left: 50px;
+    width: 81%;
+    height: 45px;
+    background-color: #E1E7EB;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+#lol2 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.couleur2:hover {
+    background-color: #D2DBE1;
+    transition: all ease 1s;
+}
+
+.footer-paypal_grey {
+    margin-top: 123px;
+    height: 40px;
+    width: 100%;
+    background-color: #F7F9FA;
+    
+}
+
+.footer-paypal_grey ul {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style-type: none;
+    color: #686868;
+    font-size: 11px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.footer-paypal_grey ul li {
+    padding-right: 11px;
+    margin-top: 13px;
+}
+
+.footer-paypal_grey ul li:hover {
+    text-decoration: underline;
+}
+
+
+
+
